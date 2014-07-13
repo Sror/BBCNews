@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="6154.21" systemVersion="14A238x" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES">
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="6153.13"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="BBCNewsDetailsViewController">
+            <connections>
+                <outlet property="descriptionTextView" destination="WjZ-O1-CCh" id="3L3-we-yfg"/>
+                <outlet property="newsImageView" destination="Aqa-mP-5qy" id="iES-Jh-XPW"/>
+                <outlet property="titleLabel" destination="2j9-7v-IJK" id="nDF-0N-3s2"/>
+                <outlet property="view" destination="iN0-l3-epB" id="ewo-xx-JQL"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="iN0-l3-epB">
+            <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Labelk" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" preferredMaxLayoutWidth="288" translatesAutoresizingMaskIntoConstraints="NO" id="2j9-7v-IJK">
+                    <rect key="frame" x="18" y="169" width="288" height="21"/>
+                    <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                    <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="Aqa-mP-5qy" customClass="BBCImageView">
+                    <rect key="frame" x="88" y="69" width="144" height="81"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="81" id="9uq-13-5aG"/>
+                        <constraint firstAttribute="width" constant="144" id="iFg-eW-Cju"/>
+                    </constraints>
+                </imageView>
+                <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" ambiguous="YES" editable="NO" translatesAutoresizingMaskIntoConstraints="NO" id="WjZ-O1-CCh">
+                    <rect key="frame" x="18" y="219" width="284" height="152"/>
+                    <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="152" id="Bsc-KC-uqT"/>
+                    </constraints>
+                    <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                    <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                </textView>
+            </subviews>
+            <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+            <constraints>
+                <constraint firstItem="2j9-7v-IJK" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" constant="18" id="3iP-W3-Muu"/>
+                <constraint firstItem="2j9-7v-IJK" firstAttribute="top" secondItem="WjZ-O1-CCh" secondAttribute="top" constant="-50" id="9Hm-JY-fL7"/>
+                <constraint firstAttribute="trailing" secondItem="2j9-7v-IJK" secondAttribute="trailing" constant="14" id="MWF-IO-Ppy"/>
+                <constraint firstAttribute="trailing" secondItem="WjZ-O1-CCh" secondAttribute="trailing" constant="18" id="RDR-2O-KVn"/>
+                <constraint firstItem="WjZ-O1-CCh" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" constant="18" id="U9u-5B-0nT"/>
+                <constraint firstItem="Aqa-mP-5qy" firstAttribute="top" secondItem="2j9-7v-IJK" secondAttribute="top" constant="-100" id="ZPs-lo-aBH"/>
+                <constraint firstAttribute="centerX" secondItem="Aqa-mP-5qy" secondAttribute="centerX" id="dRu-Xr-Ydc"/>
+                <constraint firstItem="Aqa-mP-5qy" firstAttribute="top" secondItem="iN0-l3-epB" secondAttribute="top" constant="69" id="p71-88-6f0"/>
+            </constraints>
+            <simulatedStatusBarMetrics key="simulatedStatusBarMetrics"/>
+            <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina4"/>
+        </view>
+    </objects>
+</document>

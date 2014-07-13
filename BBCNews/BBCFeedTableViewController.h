@@ -8,6 +8,6 @@
 
 #import <UIKit/UIKit.h>
 
-@interface BBCViewController : UIViewController
+@interface BBCFeedTableViewController : UITableViewController
 
 @end

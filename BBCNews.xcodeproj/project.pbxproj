@@ -7,20 +7,38 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		210B0D26196ECB6600119FD6 /* BBCFeedTableViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 210B0D25196ECB6600119FD6 /* BBCFeedTableViewController.xib */; };
+		2131E705196EDF3800EEAD1A /* BBCFeedViewCell+FeedItem.m in Sources */ = {isa = PBXBuildFile; fileRef = 2131E704196EDF3800EEAD1A /* BBCFeedViewCell+FeedItem.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		214AB9A8196DA9FC00E93221 /* BBCXMLParserOperation.m in Sources */ = {isa = PBXBuildFile; fileRef = 214AB9A7196DA9FC00E93221 /* BBCXMLParserOperation.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		21749C87196FCDE9006C9EDC /* BBCConnectionManagerNew.m in Sources */ = {isa = PBXBuildFile; fileRef = 21749C86196FCDE9006C9EDC /* BBCConnectionManagerNew.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
 		21768FAE196D9F6200A613F9 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 21768FAD196D9F6200A613F9 /* Foundation.framework */; };
 		21768FB0196D9F6200A613F9 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 21768FAF196D9F6200A613F9 /* CoreGraphics.framework */; };
 		21768FB2196D9F6200A613F9 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 21768FB1196D9F6200A613F9 /* UIKit.framework */; };
 		21768FB8196D9F6200A613F9 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 21768FB6196D9F6200A613F9 /* InfoPlist.strings */; };
 		21768FBA196D9F6200A613F9 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 21768FB9196D9F6200A613F9 /* main.m */; };
 		21768FBE196D9F6200A613F9 /* BBCAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 21768FBD196D9F6200A613F9 /* BBCAppDelegate.m */; };
-		21768FC1196D9F6200A613F9 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 21768FBF196D9F6200A613F9 /* Main.storyboard */; };
-		21768FC4196D9F6200A613F9 /* BBCViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 21768FC3196D9F6200A613F9 /* BBCViewController.m */; };
+		21768FC4196D9F6200A613F9 /* BBCFeedTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 21768FC3196D9F6200A613F9 /* BBCFeedTableViewController.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
 		21768FC6196D9F6200A613F9 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 21768FC5196D9F6200A613F9 /* Images.xcassets */; };
 		21768FCD196D9F6200A613F9 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 21768FCC196D9F6200A613F9 /* XCTest.framework */; };
 		21768FCE196D9F6200A613F9 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 21768FAD196D9F6200A613F9 /* Foundation.framework */; };
 		21768FCF196D9F6300A613F9 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 21768FB1196D9F6200A613F9 /* UIKit.framework */; };
 		21768FD7196D9F6300A613F9 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 21768FD5196D9F6300A613F9 /* InfoPlist.strings */; };
 		21768FD9196D9F6300A613F9 /* BBCNewsTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 21768FD8196D9F6300A613F9 /* BBCNewsTests.m */; };
+		21B2B5F5196ED12D001DD2A5 /* BBCFeedViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 21B2B5F3196ED12D001DD2A5 /* BBCFeedViewCell.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		21B2B5F6196ED12D001DD2A5 /* BBCFeedViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 21B2B5F4196ED12D001DD2A5 /* BBCFeedViewCell.xib */; };
+		21B2B5FA196ED846001DD2A5 /* BBCFeedArrayDataSource.m in Sources */ = {isa = PBXBuildFile; fileRef = 21B2B5F9196ED846001DD2A5 /* BBCFeedArrayDataSource.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		21D4A0D5197088F400770EB7 /* BBCNewsWebViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 21D4A0D4197088F400770EB7 /* BBCNewsWebViewController.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		21D4A0D71970890700770EB7 /* BBCNewsWebViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 21D4A0D61970890700770EB7 /* BBCNewsWebViewController.xib */; };
+		21DD23C4196E867500322EF0 /* BBCNews.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 21DD23C2196E867500322EF0 /* BBCNews.xcdatamodeld */; };
+		21DD23CB196E884D00322EF0 /* BBCFeedItem+Server.m in Sources */ = {isa = PBXBuildFile; fileRef = 21DD23CA196E884D00322EF0 /* BBCFeedItem+Server.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		21DD23CD196E893200322EF0 /* CoreData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 21DD23CC196E893200322EF0 /* CoreData.framework */; };
+		21DD23D2196E89CF00322EF0 /* BBCCoreDataManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 21DD23D1196E89CF00322EF0 /* BBCCoreDataManager.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		21DD23DD196EC3F900322EF0 /* BBCImageView.m in Sources */ = {isa = PBXBuildFile; fileRef = 21DD23DC196EC3F900322EF0 /* BBCImageView.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		21E6E670196F2FBD00D37183 /* BBCNewsDetailsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 21E6E66F196F2FBD00D37183 /* BBCNewsDetailsViewController.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		21E6E672196F2FD600D37183 /* BBCNewsDetailsViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 21E6E671196F2FD600D37183 /* BBCNewsDetailsViewController.xib */; };
+		21E6E677196F3F7800D37183 /* BBCErrorHandler.m in Sources */ = {isa = PBXBuildFile; fileRef = 21E6E676196F3F7800D37183 /* BBCErrorHandler.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		21E6E67A196F47A300D37183 /* BBCFeedItem.m in Sources */ = {isa = PBXBuildFile; fileRef = 21E6E679196F47A300D37183 /* BBCFeedItem.m */; };
+		21E6E67E196F4B5700D37183 /* BBCImageCash.m in Sources */ = {isa = PBXBuildFile; fileRef = 21E6E67D196F4B5700D37183 /* BBCImageCash.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,6 +52,13 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		210B0D25196ECB6600119FD6 /* BBCFeedTableViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = BBCFeedTableViewController.xib; sourceTree = "<group>"; };
+		2131E703196EDF0500EEAD1A /* BBCFeedViewCell+FeedItem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "BBCFeedViewCell+FeedItem.h"; sourceTree = "<group>"; };
+		2131E704196EDF3800EEAD1A /* BBCFeedViewCell+FeedItem.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "BBCFeedViewCell+FeedItem.m"; sourceTree = "<group>"; };
+		214AB9A6196DA9FC00E93221 /* BBCXMLParserOperation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BBCXMLParserOperation.h; sourceTree = "<group>"; };
+		214AB9A7196DA9FC00E93221 /* BBCXMLParserOperation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BBCXMLParserOperation.m; sourceTree = "<group>"; };
+		21749C85196FCDE9006C9EDC /* BBCConnectionManagerNew.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BBCConnectionManagerNew.h; sourceTree = "<group>"; };
+		21749C86196FCDE9006C9EDC /* BBCConnectionManagerNew.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BBCConnectionManagerNew.m; sourceTree = "<group>"; };
 		21768FAA196D9F6200A613F9 /* BBCNews.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BBCNews.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		21768FAD196D9F6200A613F9 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		21768FAF196D9F6200A613F9 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -44,15 +69,39 @@
 		21768FBB196D9F6200A613F9 /* BBCNews-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "BBCNews-Prefix.pch"; sourceTree = "<group>"; };
 		21768FBC196D9F6200A613F9 /* BBCAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BBCAppDelegate.h; sourceTree = "<group>"; };
 		21768FBD196D9F6200A613F9 /* BBCAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BBCAppDelegate.m; sourceTree = "<group>"; };
-		21768FC0196D9F6200A613F9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		21768FC2196D9F6200A613F9 /* BBCViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BBCViewController.h; sourceTree = "<group>"; };
-		21768FC3196D9F6200A613F9 /* BBCViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BBCViewController.m; sourceTree = "<group>"; };
+		21768FC2196D9F6200A613F9 /* BBCFeedTableViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BBCFeedTableViewController.h; sourceTree = "<group>"; };
+		21768FC3196D9F6200A613F9 /* BBCFeedTableViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BBCFeedTableViewController.m; sourceTree = "<group>"; };
 		21768FC5196D9F6200A613F9 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		21768FCB196D9F6200A613F9 /* BBCNewsTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BBCNewsTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		21768FCC196D9F6200A613F9 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
 		21768FD4196D9F6300A613F9 /* BBCNewsTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "BBCNewsTests-Info.plist"; sourceTree = "<group>"; };
 		21768FD6196D9F6300A613F9 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		21768FD8196D9F6300A613F9 /* BBCNewsTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BBCNewsTests.m; sourceTree = "<group>"; };
+		21B2B5F2196ED12D001DD2A5 /* BBCFeedViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BBCFeedViewCell.h; sourceTree = "<group>"; };
+		21B2B5F3196ED12D001DD2A5 /* BBCFeedViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BBCFeedViewCell.m; sourceTree = "<group>"; };
+		21B2B5F4196ED12D001DD2A5 /* BBCFeedViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = BBCFeedViewCell.xib; sourceTree = "<group>"; };
+		21B2B5F8196ED846001DD2A5 /* BBCFeedArrayDataSource.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BBCFeedArrayDataSource.h; sourceTree = "<group>"; };
+		21B2B5F9196ED846001DD2A5 /* BBCFeedArrayDataSource.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BBCFeedArrayDataSource.m; sourceTree = "<group>"; };
+		21D4A0D3197088F400770EB7 /* BBCNewsWebViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BBCNewsWebViewController.h; sourceTree = "<group>"; };
+		21D4A0D4197088F400770EB7 /* BBCNewsWebViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BBCNewsWebViewController.m; sourceTree = "<group>"; };
+		21D4A0D61970890700770EB7 /* BBCNewsWebViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = BBCNewsWebViewController.xib; sourceTree = "<group>"; };
+		21DD23C3196E867500322EF0 /* BBCNews.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = BBCNews.xcdatamodel; sourceTree = "<group>"; };
+		21DD23C9196E883F00322EF0 /* BBCFeedItem+Server.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "BBCFeedItem+Server.h"; sourceTree = "<group>"; };
+		21DD23CA196E884D00322EF0 /* BBCFeedItem+Server.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "BBCFeedItem+Server.m"; sourceTree = "<group>"; };
+		21DD23CC196E893200322EF0 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		21DD23D0196E89CF00322EF0 /* BBCCoreDataManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BBCCoreDataManager.h; sourceTree = "<group>"; };
+		21DD23D1196E89CF00322EF0 /* BBCCoreDataManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BBCCoreDataManager.m; sourceTree = "<group>"; };
+		21DD23DB196EC3F900322EF0 /* BBCImageView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BBCImageView.h; sourceTree = "<group>"; };
+		21DD23DC196EC3F900322EF0 /* BBCImageView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BBCImageView.m; sourceTree = "<group>"; };
+		21E6E66E196F2FBD00D37183 /* BBCNewsDetailsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BBCNewsDetailsViewController.h; sourceTree = "<group>"; };
+		21E6E66F196F2FBD00D37183 /* BBCNewsDetailsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BBCNewsDetailsViewController.m; sourceTree = "<group>"; };
+		21E6E671196F2FD600D37183 /* BBCNewsDetailsViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = BBCNewsDetailsViewController.xib; sourceTree = "<group>"; };
+		21E6E675196F3F7800D37183 /* BBCErrorHandler.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BBCErrorHandler.h; sourceTree = "<group>"; };
+		21E6E676196F3F7800D37183 /* BBCErrorHandler.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BBCErrorHandler.m; sourceTree = "<group>"; };
+		21E6E678196F47A300D37183 /* BBCFeedItem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BBCFeedItem.h; sourceTree = "<group>"; };
+		21E6E679196F47A300D37183 /* BBCFeedItem.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BBCFeedItem.m; sourceTree = "<group>"; };
+		21E6E67C196F4B5700D37183 /* BBCImageCash.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BBCImageCash.h; sourceTree = "<group>"; };
+		21E6E67D196F4B5700D37183 /* BBCImageCash.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BBCImageCash.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,6 +109,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				21DD23CD196E893200322EF0 /* CoreData.framework in Frameworks */,
 				21768FB0196D9F6200A613F9 /* CoreGraphics.framework in Frameworks */,
 				21768FB2196D9F6200A613F9 /* UIKit.framework in Frameworks */,
 				21768FAE196D9F6200A613F9 /* Foundation.framework in Frameworks */,
@@ -79,6 +129,25 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		214AB9A5196DA9AF00E93221 /* XMLParserOperation */ = {
+			isa = PBXGroup;
+			children = (
+				214AB9A6196DA9FC00E93221 /* BBCXMLParserOperation.h */,
+				214AB9A7196DA9FC00E93221 /* BBCXMLParserOperation.m */,
+			);
+			name = XMLParserOperation;
+			sourceTree = "<group>";
+		};
+		216C0CE619709A5F00AD55FA /* Core */ = {
+			isa = PBXGroup;
+			children = (
+				21768FE2196D9FA300A613F9 /* ConnectionManager */,
+				214AB9A5196DA9AF00E93221 /* XMLParserOperation */,
+				21DD23C1196E864F00322EF0 /* CoreDataStack */,
+			);
+			name = Core;
+			sourceTree = "<group>";
+		};
 		21768FA1196D9F6200A613F9 = {
 			isa = PBXGroup;
 			children = (
@@ -101,6 +170,7 @@
 		21768FAC196D9F6200A613F9 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				21DD23CC196E893200322EF0 /* CoreData.framework */,
 				21768FAD196D9F6200A613F9 /* Foundation.framework */,
 				21768FAF196D9F6200A613F9 /* CoreGraphics.framework */,
 				21768FB1196D9F6200A613F9 /* UIKit.framework */,
@@ -114,9 +184,10 @@
 			children = (
 				21768FBC196D9F6200A613F9 /* BBCAppDelegate.h */,
 				21768FBD196D9F6200A613F9 /* BBCAppDelegate.m */,
-				21768FBF196D9F6200A613F9 /* Main.storyboard */,
-				21768FC2196D9F6200A613F9 /* BBCViewController.h */,
-				21768FC3196D9F6200A613F9 /* BBCViewController.m */,
+				216C0CE619709A5F00AD55FA /* Core */,
+				21DD23D9196EC3CE00322EF0 /* ViewControllers */,
+				21B2B5F7196ED70A001DD2A5 /* Behaviours */,
+				21DD23DA196EC3DB00322EF0 /* Views */,
 				21768FC5196D9F6200A613F9 /* Images.xcassets */,
 				21768FB4196D9F6200A613F9 /* Supporting Files */,
 			);
@@ -150,6 +221,144 @@
 				21768FD5196D9F6300A613F9 /* InfoPlist.strings */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		21768FE2196D9FA300A613F9 /* ConnectionManager */ = {
+			isa = PBXGroup;
+			children = (
+				21E6E67C196F4B5700D37183 /* BBCImageCash.h */,
+				21E6E67D196F4B5700D37183 /* BBCImageCash.m */,
+				21749C85196FCDE9006C9EDC /* BBCConnectionManagerNew.h */,
+				21749C86196FCDE9006C9EDC /* BBCConnectionManagerNew.m */,
+			);
+			name = ConnectionManager;
+			sourceTree = "<group>";
+		};
+		21B2B5F0196ECD79001DD2A5 /* FeedController */ = {
+			isa = PBXGroup;
+			children = (
+				21768FC2196D9F6200A613F9 /* BBCFeedTableViewController.h */,
+				21768FC3196D9F6200A613F9 /* BBCFeedTableViewController.m */,
+				210B0D25196ECB6600119FD6 /* BBCFeedTableViewController.xib */,
+			);
+			name = FeedController;
+			sourceTree = "<group>";
+		};
+		21B2B5F1196ED0E9001DD2A5 /* FeedCell */ = {
+			isa = PBXGroup;
+			children = (
+				2131E703196EDF0500EEAD1A /* BBCFeedViewCell+FeedItem.h */,
+				2131E704196EDF3800EEAD1A /* BBCFeedViewCell+FeedItem.m */,
+				21B2B5F2196ED12D001DD2A5 /* BBCFeedViewCell.h */,
+				21B2B5F3196ED12D001DD2A5 /* BBCFeedViewCell.m */,
+				21B2B5F4196ED12D001DD2A5 /* BBCFeedViewCell.xib */,
+			);
+			name = FeedCell;
+			sourceTree = "<group>";
+		};
+		21B2B5F7196ED70A001DD2A5 /* Behaviours */ = {
+			isa = PBXGroup;
+			children = (
+				21E6E674196F3F5500D37183 /* ErrorHandler */,
+				21E6E673196F3F4300D37183 /* ArrayDataSource */,
+			);
+			name = Behaviours;
+			sourceTree = "<group>";
+		};
+		21D4A0D2197088A200770EB7 /* NewsWebViewController */ = {
+			isa = PBXGroup;
+			children = (
+				21D4A0D3197088F400770EB7 /* BBCNewsWebViewController.h */,
+				21D4A0D4197088F400770EB7 /* BBCNewsWebViewController.m */,
+				21D4A0D61970890700770EB7 /* BBCNewsWebViewController.xib */,
+			);
+			name = NewsWebViewController;
+			sourceTree = "<group>";
+		};
+		21DD23C1196E864F00322EF0 /* CoreDataStack */ = {
+			isa = PBXGroup;
+			children = (
+				21DD23CF196E89A600322EF0 /* CoreDataManager */,
+				21DD23CE196E896C00322EF0 /* Entities */,
+				21DD23C8196E879200322EF0 /* ServerCategories */,
+				21DD23C2196E867500322EF0 /* BBCNews.xcdatamodeld */,
+			);
+			name = CoreDataStack;
+			sourceTree = "<group>";
+		};
+		21DD23C8196E879200322EF0 /* ServerCategories */ = {
+			isa = PBXGroup;
+			children = (
+				21DD23C9196E883F00322EF0 /* BBCFeedItem+Server.h */,
+				21DD23CA196E884D00322EF0 /* BBCFeedItem+Server.m */,
+			);
+			name = ServerCategories;
+			sourceTree = "<group>";
+		};
+		21DD23CE196E896C00322EF0 /* Entities */ = {
+			isa = PBXGroup;
+			children = (
+				21E6E678196F47A300D37183 /* BBCFeedItem.h */,
+				21E6E679196F47A300D37183 /* BBCFeedItem.m */,
+			);
+			name = Entities;
+			sourceTree = "<group>";
+		};
+		21DD23CF196E89A600322EF0 /* CoreDataManager */ = {
+			isa = PBXGroup;
+			children = (
+				21DD23D0196E89CF00322EF0 /* BBCCoreDataManager.h */,
+				21DD23D1196E89CF00322EF0 /* BBCCoreDataManager.m */,
+			);
+			name = CoreDataManager;
+			sourceTree = "<group>";
+		};
+		21DD23D9196EC3CE00322EF0 /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				21B2B5F0196ECD79001DD2A5 /* FeedController */,
+				21E6E66D196F2F6300D37183 /* DetailsController */,
+				21D4A0D2197088A200770EB7 /* NewsWebViewController */,
+			);
+			name = ViewControllers;
+			sourceTree = "<group>";
+		};
+		21DD23DA196EC3DB00322EF0 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				21B2B5F1196ED0E9001DD2A5 /* FeedCell */,
+				21DD23DB196EC3F900322EF0 /* BBCImageView.h */,
+				21DD23DC196EC3F900322EF0 /* BBCImageView.m */,
+			);
+			name = Views;
+			sourceTree = "<group>";
+		};
+		21E6E66D196F2F6300D37183 /* DetailsController */ = {
+			isa = PBXGroup;
+			children = (
+				21E6E66E196F2FBD00D37183 /* BBCNewsDetailsViewController.h */,
+				21E6E66F196F2FBD00D37183 /* BBCNewsDetailsViewController.m */,
+				21E6E671196F2FD600D37183 /* BBCNewsDetailsViewController.xib */,
+			);
+			name = DetailsController;
+			sourceTree = "<group>";
+		};
+		21E6E673196F3F4300D37183 /* ArrayDataSource */ = {
+			isa = PBXGroup;
+			children = (
+				21B2B5F8196ED846001DD2A5 /* BBCFeedArrayDataSource.h */,
+				21B2B5F9196ED846001DD2A5 /* BBCFeedArrayDataSource.m */,
+			);
+			name = ArrayDataSource;
+			sourceTree = "<group>";
+		};
+		21E6E674196F3F5500D37183 /* ErrorHandler */ = {
+			isa = PBXGroup;
+			children = (
+				21E6E675196F3F7800D37183 /* BBCErrorHandler.h */,
+				21E6E676196F3F7800D37183 /* BBCErrorHandler.m */,
+			);
+			name = ErrorHandler;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -230,8 +439,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				21768FC6196D9F6200A613F9 /* Images.xcassets in Resources */,
+				210B0D26196ECB6600119FD6 /* BBCFeedTableViewController.xib in Resources */,
+				21E6E672196F2FD600D37183 /* BBCNewsDetailsViewController.xib in Resources */,
+				21B2B5F6196ED12D001DD2A5 /* BBCFeedViewCell.xib in Resources */,
+				21D4A0D71970890700770EB7 /* BBCNewsWebViewController.xib in Resources */,
 				21768FB8196D9F6200A613F9 /* InfoPlist.strings in Resources */,
-				21768FC1196D9F6200A613F9 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -250,9 +462,23 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				21DD23CB196E884D00322EF0 /* BBCFeedItem+Server.m in Sources */,
 				21768FBE196D9F6200A613F9 /* BBCAppDelegate.m in Sources */,
+				21749C87196FCDE9006C9EDC /* BBCConnectionManagerNew.m in Sources */,
+				21D4A0D5197088F400770EB7 /* BBCNewsWebViewController.m in Sources */,
+				21E6E67E196F4B5700D37183 /* BBCImageCash.m in Sources */,
+				21DD23D2196E89CF00322EF0 /* BBCCoreDataManager.m in Sources */,
+				21DD23DD196EC3F900322EF0 /* BBCImageView.m in Sources */,
+				2131E705196EDF3800EEAD1A /* BBCFeedViewCell+FeedItem.m in Sources */,
+				214AB9A8196DA9FC00E93221 /* BBCXMLParserOperation.m in Sources */,
+				21E6E670196F2FBD00D37183 /* BBCNewsDetailsViewController.m in Sources */,
+				21B2B5F5196ED12D001DD2A5 /* BBCFeedViewCell.m in Sources */,
 				21768FBA196D9F6200A613F9 /* main.m in Sources */,
-				21768FC4196D9F6200A613F9 /* BBCViewController.m in Sources */,
+				21DD23C4196E867500322EF0 /* BBCNews.xcdatamodeld in Sources */,
+				21E6E677196F3F7800D37183 /* BBCErrorHandler.m in Sources */,
+				21768FC4196D9F6200A613F9 /* BBCFeedTableViewController.m in Sources */,
+				21E6E67A196F47A300D37183 /* BBCFeedItem.m in Sources */,
+				21B2B5FA196ED846001DD2A5 /* BBCFeedArrayDataSource.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -281,14 +507,6 @@
 				21768FB7196D9F6200A613F9 /* en */,
 			);
 			name = InfoPlist.strings;
-			sourceTree = "<group>";
-		};
-		21768FBF196D9F6200A613F9 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				21768FC0196D9F6200A613F9 /* Base */,
-			);
-			name = Main.storyboard;
 			sourceTree = "<group>";
 		};
 		21768FD5196D9F6300A613F9 /* InfoPlist.strings */ = {
@@ -377,9 +595,11 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CLANG_ENABLE_OBJC_ARC = YES;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "BBCNews/BBCNews-Prefix.pch";
 				INFOPLIST_FILE = "BBCNews/BBCNews-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = app;
 			};
@@ -390,9 +610,11 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CLANG_ENABLE_OBJC_ARC = YES;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "BBCNews/BBCNews-Prefix.pch";
 				INFOPLIST_FILE = "BBCNews/BBCNews-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = app;
 			};
@@ -457,6 +679,7 @@
 				21768FDE196D9F6300A613F9 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		21768FDF196D9F6300A613F9 /* Build configuration list for PBXNativeTarget "BBCNewsTests" */ = {
 			isa = XCConfigurationList;
@@ -465,8 +688,22 @@
 				21768FE1196D9F6300A613F9 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		21DD23C2196E867500322EF0 /* BBCNews.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				21DD23C3196E867500322EF0 /* BBCNews.xcdatamodel */,
+			);
+			currentVersion = 21DD23C3196E867500322EF0 /* BBCNews.xcdatamodel */;
+			path = BBCNews.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
 	};
 	rootObject = 21768FA2196D9F6200A613F9 /* Project object */;
 }
